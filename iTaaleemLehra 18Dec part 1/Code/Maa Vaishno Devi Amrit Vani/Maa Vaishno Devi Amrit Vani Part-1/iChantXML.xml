@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item>
+   <name>Maa Vaishno Devi Amrit Vani Part-1</name>
+        <itemcost>paid</itemcost>
+   <itemtype>iChant</itemtype>
+        <itemplist>timearray</itemplist>
+        <freebeadscount>3</freebeadscount>
+        <timefactor>100</timefactor>
+   <itemaudio>main_menu_audio0_hindi</itemaudio>
+   <itemaudiotype>mp3</itemaudiotype>
+    <itembgimage>Bg_iPhone</itembgimage>
+    <itembgimagetype>png</itembgimagetype>
+    <itembgimageiPod>Bg_iPod</itembgimageiPod>
+    <itembgimagetypeiPod>png</itembgimagetypeiPod>
+    <itembgimagePortrait>Bg_Portrait</itembgimagePortrait>
+    <itembgimagetypePortrait>png</itembgimagetypePortrait>
+    <itembgimageLandscape>Bg_Landscape</itembgimageLandscape>
+    <itembgimagetypeLandscape>png</itembgimagetypeLandscape>
+</item>

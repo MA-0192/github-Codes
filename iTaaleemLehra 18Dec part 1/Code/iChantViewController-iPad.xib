@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.iPad.XIB" version="3.0" toolsVersion="4510" systemVersion="12F45" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none">
+    <dependencies>
+        <deployment defaultVersion="1072" identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3742"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="iChantViewController">
+            <connections>
+                <outlet property="btnDontShowAgainHelpScreen" destination="85" id="91"/>
+                <outlet property="btnFacebook" destination="58" id="79"/>
+                <outlet property="btnFaq" destination="60" id="75"/>
+                <outlet property="btnFeedback" destination="59" id="73"/>
+                <outlet property="btnHelpScreenOk" destination="87" id="94"/>
+                <outlet property="btnTwitter" destination="61" id="81"/>
+                <outlet property="firstInfoTextView" destination="84" id="98"/>
+                <outlet property="imgViewAppLogo" destination="57" id="77"/>
+                <outlet property="imgViewBackground" destination="3" id="96"/>
+                <outlet property="imgViewHelpScreen" destination="100" id="101"/>
+                <outlet property="imgViewMALogo" destination="56" id="76"/>
+                <outlet property="instructionsView" destination="51" id="62"/>
+                <outlet property="lblCopyright" destination="54" id="65"/>
+                <outlet property="lblDontShowAgain" destination="86" id="92"/>
+                <outlet property="mTableView" destination="8" id="37"/>
+                <outlet property="txtViewInfo" destination="55" id="99"/>
+                <outlet property="view" destination="2" id="15"/>
+                <outlet property="viewFirstTimeHelpView" destination="82" id="95"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="2">
+            <rect key="frame" x="0.0" y="0.0" width="768" height="1004"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" alpha="0.60000002384185791" contentMode="scaleToFill" id="3">
+                    <rect key="frame" x="0.0" y="0.0" width="768" height="1004"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                </imageView>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="110" sectionHeaderHeight="22" sectionFooterHeight="22" id="8">
+                    <rect key="frame" x="0.0" y="0.0" width="768" height="905"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <color key="separatorColor" red="0.4161152742" green="0.20896260890000001" blue="0.00086063230550000004" alpha="1" colorSpace="calibratedRGB"/>
+                    <connections>
+                        <outlet property="dataSource" destination="-1" id="17"/>
+                        <outlet property="delegate" destination="-1" id="18"/>
+                    </connections>
+                </tableView>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+        </view>
+        <view contentMode="scaleToFill" id="51">
+            <rect key="frame" x="0.0" y="0.0" width="768" height="1004"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <textView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" delaysContentTouches="NO" canCancelContentTouches="NO" bouncesZoom="NO" editable="NO" id="55">
+                    <rect key="frame" x="30" y="119" width="718" height="695"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <string key="text">Welcome to the spiritual world of soothing chants!
+
+Immerse yourself in the soothing chants to melt away the stress of your day-to-day routine. 
+We have provided Japanese Garden and Yoga Helper chants as free. 
+
+For rest of the Chants, you can download the packages and listen to the same.       
+                                                                         
+Please send your valuable feedback to ipooja@mediaagility.com.                          
+                                                                         
+Music Credits - Kalamanch USA
+Music Composed By - Prashant Gijare
+Singers - Tushar Jambhekar, Rucha Jambhekar, Varsha Gijare, Nilesh Mistry
+</string>
+                    <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="26"/>
+                    <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                    <connections>
+                        <outlet property="delegate" destination="-1" id="63"/>
+                    </connections>
+                </textView>
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" text="© 2013 MediaAgility LLC" lineBreakMode="tailTruncation" minimumFontSize="10" id="54">
+                    <rect key="frame" x="317" y="897" width="175" height="21"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="14"/>
+                    <color key="textColor" red="1" green="0.5" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <imageView opaque="NO" clearsContextBeforeDrawing="NO" userInteractionEnabled="NO" contentMode="center" image="57x57.png" id="57">
+                    <rect key="frame" x="654" y="28" width="57" height="57"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                </imageView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="58">
+                    <rect key="frame" x="61" y="822" width="50" height="50"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <state key="normal" backgroundImage="facebook like icon.png">
+                        <color key="titleColor" red="0.98979591840000003" green="0.98979591840000003" blue="0.98979591840000003" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <state key="highlighted">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="facebookButtonPressed" destination="-1" eventType="touchUpInside" id="78"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="61">
+                    <rect key="frame" x="257" y="822" width="50" height="50"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <state key="normal" backgroundImage="twitter.png">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <state key="highlighted">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="btnTwitterClicked" destination="-1" eventType="touchUpInside" id="80"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="59">
+                    <rect key="frame" x="467" y="822" width="50" height="50"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <state key="normal" backgroundImage="feedback-icon.png">
+                        <color key="titleColor" red="0.98979591840000003" green="0.98979591840000003" blue="0.98979591840000003" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <state key="highlighted">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="sendFeedBackButtonPressed" destination="-1" eventType="touchUpInside" id="72"/>
+                    </connections>
+                </button>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="info_icon0.png" id="56">
+                    <rect key="frame" x="30" y="28" width="60" height="60"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                </imageView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="60">
+                    <rect key="frame" x="647" y="822" width="50" height="50"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                    <state key="normal" backgroundImage="faq.png">
+                        <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <state key="highlighted">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="btnFaqPressed" destination="-1" eventType="touchUpInside" id="74"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+        </view>
+        <view contentMode="scaleToFill" id="82">
+            <rect key="frame" x="0.0" y="0.0" width="768" height="1004"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" id="100">
+                    <rect key="frame" x="0.0" y="0.0" width="768" height="1004"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                </imageView>
+                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" editable="NO" id="84">
+                    <rect key="frame" x="49" y="52" width="671" height="664"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <string key="text">Welcome to the spiritual world of soothing chants.
+It is our pleasure to introduce you to the new series of iChant application which includes different chants in different packages.
+
+For already existing users who have purchased the packages before, you need to update the package as described below :
+
+1. Click on "Updates" button on main menu screen.
+2. There will be a list of packages already purchased and a button "Get Free" in front of the package. You can download the update of the package.
+3. By downloading the update of package, Ads will be removed.</string>
+                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="27"/>
+                    <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                    <connections>
+                        <outlet property="delegate" destination="-1" id="89"/>
+                    </connections>
+                </textView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="85">
+                    <rect key="frame" x="262" y="713" width="50" height="50"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                    <state key="normal" image="uncheck.png">
+                        <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <state key="highlighted">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="btnDontShowAgainHelpScreenClicked" destination="-1" eventType="touchUpInside" id="90"/>
+                    </connections>
+                </button>
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Dont Show Again" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="86">
+                    <rect key="frame" x="320" y="724" width="170" height="27"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="87">
+                    <rect key="frame" x="333" y="759" width="78" height="35"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                    <state key="normal" backgroundImage="bttn_ok.png">
+                        <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <state key="highlighted">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="btnHelpScreenOkClicked" destination="-1" eventType="touchUpInside" id="93"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="57x57.png" width="57" height="57"/>
+        <image name="bttn_ok.png" width="72" height="29"/>
+        <image name="facebook like icon.png" width="64" height="64"/>
+        <image name="faq.png" width="48" height="48"/>
+        <image name="feedback-icon.png" width="64" height="64"/>
+        <image name="info_icon0.png" width="57" height="57"/>
+        <image name="twitter.png" width="64" height="64"/>
+        <image name="uncheck.png" width="22" height="19"/>
+    </resources>
+</document>
